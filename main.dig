@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes/>
+      <pos x="1700" y="980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes/>
+      <pos x="1820" y="980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes/>
+      <pos x="1820" y="1060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes/>
+      <pos x="1780" y="1100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="960"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="1700" y="980"/>
+      <p2 x="1720" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="980"/>
+      <p2 x="1820" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="1100"/>
+      <p2 x="1780" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="980"/>
+      <p2 x="1700" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="960"/>
+      <p2 x="1720" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="980"/>
+      <p2 x="1720" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="1820" y="980"/>
+      <p2 x="1820" y="1060"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
